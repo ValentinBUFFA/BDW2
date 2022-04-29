@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Delobel_Aloys_11920128-Buffa_Valentin_11920316.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="projet-bdw2">Projet BDW2</h1>
+<h3 id="par-valentin-buffa-11920316-et-aloys-delobel-11920128">Par Valentin Buffa (11920316) et Aloys Delobel (11920128)</h3>
+<hr>
+<h5 id="fichier-disponible-sur-httpsgithubcomvalentinbuffabdw2">Fichier disponible sur https://github.com/ValentinBUFFA/BDW2</h5>
+<hr>
+<h2 id="code-complet">Code Complet</h2>
+<p>Le code complet se trouve dans le fichier <em>Projet.sql</em>.</p>
+<h2 id="ce-code-est-le-code-fonctionnel-tel-que-demand%C3%A9-%C3%A0-la-question-5-des-indications-sur-les-tests-effectu%C3%A9s-et-certaines-clarifications-sont-inscrites-en-commentaires-pour-plus-de-d%C3%A9tails-se-r%C3%A9f%C3%A9rer-%C3%A0-la-suite-de-ce-document-pour-les-parties-de-codes-effectu%C3%A9es-questions-par-questions">Ce code est le code fonctionnel tel que demandé à la question 5. Des indications sur les tests effectués et certaines clarifications sont inscrites en commentaires. Pour plus de détails, se référer à la suite de ce document pour les parties de codes effectuées questions par questions.</h2>
+<hr>
+<h2 id="question-1">Question 1</h2>
+<pre class="hljs"><code><div><span class="hljs-keyword">DROP</span> <span class="hljs-keyword">TABLE</span> <span class="hljs-keyword">IF</span> <span class="hljs-keyword">EXISTS</span> PERSONNE <span class="hljs-keyword">CASCADE</span>;
+<span class="hljs-keyword">DROP</span> <span class="hljs-keyword">TABLE</span> <span class="hljs-keyword">IF</span> <span class="hljs-keyword">EXISTS</span> LIVRE <span class="hljs-keyword">CASCADE</span>;
+<span class="hljs-keyword">DROP</span> <span class="hljs-keyword">TABLE</span> <span class="hljs-keyword">IF</span> <span class="hljs-keyword">EXISTS</span> EMPRUNT <span class="hljs-keyword">CASCADE</span>;
+<span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">TABLE</span> PERSONNE(
+    Numero <span class="hljs-type">INT</span> <span class="hljs-keyword">PRIMARY KEY</span>,
+    Nom <span class="hljs-type">TEXT</span> <span class="hljs-keyword">NOT</span> <span class="hljs-keyword">NULL</span>,
+    Prenom <span class="hljs-type">TEXT</span> <span class="hljs-keyword">NOT</span> <span class="hljs-keyword">NULL</span>,
+    Adresse <span class="hljs-type">TEXT</span>
+);
+
+<span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">TABLE</span> LIVRE(
+	ID <span class="hljs-type">int</span> <span class="hljs-keyword">primary key</span>, <span class="hljs-comment">-- identifiant unique à chaque livre (en tant qu'objet) attribué par la bibliothèque</span>
+    ISBN <span class="hljs-type">INT</span> <span class="hljs-keyword">NOT</span> <span class="hljs-keyword">NULL</span>,
+    Titre <span class="hljs-type">TEXT</span> <span class="hljs-keyword">NOT</span> <span class="hljs-keyword">NULL</span>,
+    Typee <span class="hljs-type">TEXT</span>,
+    Pages <span class="hljs-type">INT</span> <span class="hljs-keyword">NOT</span> <span class="hljs-keyword">NULL</span>,
+    Numero_pret <span class="hljs-type">INT</span>,
+    Date_pret <span class="hljs-type">DATE</span>,
+    <span class="hljs-keyword">UNIQUE</span> (Numero_pret, Date_pret),
+    <span class="hljs-keyword">UNIQUE</span> (ISBN, Titre, Typee,Pages),
+    <span class="hljs-keyword">FOREIGN KEY</span> (Numero_pret) <span class="hljs-keyword">REFERENCES</span> PERSONNE(Numero)
+);
+
+<span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">TABLE</span> EMPRUNT(
+    ID <span class="hljs-type">int</span>,
+	Date_emprunt <span class="hljs-type">DATE</span>,
+    Numero_emprunt <span class="hljs-type">INT</span>,
+    <span class="hljs-keyword">FOREIGN KEY</span> (Numero_emprunt) <span class="hljs-keyword">REFERENCES</span> PERSONNE(Numero),
+    <span class="hljs-keyword">FOREIGN KEY</span> (ID) <span class="hljs-keyword">REFERENCES</span> LIVRE(ID),
+    <span class="hljs-keyword">PRIMARY KEY</span> (Numero_emprunt, Date_emprunt)
+);
+
+</div></code></pre>
+<h2 id="question-2">Question 2</h2>
+<p>Peuplement des tables crées :</p>
+<pre class="hljs"><code><div><span class="hljs-keyword">INSERT</span> <span class="hljs-keyword">INTO</span> PERSONNE <span class="hljs-keyword">values</span>
+    (<span class="hljs-number">04</span>,<span class="hljs-string">'Sujardin'</span>,<span class="hljs-string">'Jean'</span>,<span class="hljs-string">'12'</span>),
+    (<span class="hljs-number">05</span>,<span class="hljs-string">'Qucien'</span>,<span class="hljs-string">'Bouvarel'</span>,<span class="hljs-string">'215'</span>),
+    (<span class="hljs-number">06</span>,<span class="hljs-string">'Lelene'</span>,<span class="hljs-string">'Turpin'</span>,<span class="hljs-string">'12'</span>),
+
+    (<span class="hljs-number">07</span>,<span class="hljs-string">'Sandra'</span>,<span class="hljs-string">'Turpin'</span>,<span class="hljs-string">'13'</span>),
+   	(<span class="hljs-number">08</span>,<span class="hljs-string">'Ukacké'</span>,<span class="hljs-string">'Daniel'</span>,<span class="hljs-string">'13'</span>),
+   	(<span class="hljs-number">09</span>,<span class="hljs-string">'Cucien'</span>,<span class="hljs-string">'Bramard'</span>, <span class="hljs-string">'loin'</span>),
+   	(<span class="hljs-number">10</span>,<span class="hljs-string">'Kanté'</span>,<span class="hljs-string">'Ngolo'</span>,<span class="hljs-string">'13'</span>),
+   	(<span class="hljs-number">11</span>,<span class="hljs-string">'Sinté'</span>,<span class="hljs-string">'Tienne'</span>,<span class="hljs-string">'42'</span>);
+ 
+
+<span class="hljs-keyword">INSERT</span> <span class="hljs-keyword">INTO</span> livre <span class="hljs-keyword">values</span>
+    (<span class="hljs-number">1000</span>, <span class="hljs-number">10000</span>, <span class="hljs-string">'Les Fleurs du Mal'</span>, <span class="hljs-string">'Poésie'</span>, <span class="hljs-number">215</span>, <span class="hljs-number">04</span>, to_date(<span class="hljs-string">'20-12-2020'</span>, <span class="hljs-string">'dd-mm-yyyy'</span>)),
+    (<span class="hljs-number">1001</span>, <span class="hljs-number">10001</span>, <span class="hljs-string">'Les Fleurs'</span>, <span class="hljs-string">'Roman'</span>, <span class="hljs-number">212</span>, <span class="hljs-number">04</span>, to_date(<span class="hljs-string">'02-12-2020'</span>, <span class="hljs-string">'dd-mm-yyyy'</span>)),
+    (<span class="hljs-number">1002</span>, <span class="hljs-number">10002</span>, <span class="hljs-string">'Tutu'</span>, <span class="hljs-string">'BD'</span>, <span class="hljs-number">30</span>, <span class="hljs-number">05</span>, to_date(<span class="hljs-string">'20-09-2022'</span>, <span class="hljs-string">'dd-mm-yyyy'</span>)),
+    (<span class="hljs-number">1003</span>, <span class="hljs-number">10003</span>, <span class="hljs-string">'En Sah'</span>, <span class="hljs-string">'Poésie'</span>, <span class="hljs-number">209</span>, <span class="hljs-number">06</span>, to_date(<span class="hljs-string">'07-12-2022'</span>, <span class="hljs-string">'dd-mm-yyyy'</span>)),
+    (<span class="hljs-number">1004</span>, <span class="hljs-number">10004</span>, <span class="hljs-string">'livre'</span>, <span class="hljs-string">'Poésie'</span>, <span class="hljs-number">215</span>, <span class="hljs-number">07</span>, to_date(<span class="hljs-string">'20-12-2020'</span>, <span class="hljs-string">'dd-mm-yyyy'</span>)),
+    (<span class="hljs-number">1005</span>, <span class="hljs-number">10005</span>, <span class="hljs-string">'Java : A few ways to suck at it'</span>, <span class="hljs-string">'Doc'</span>, <span class="hljs-number">5639</span>, <span class="hljs-number">06</span>, to_date(<span class="hljs-string">'24-12-2022'</span>, <span class="hljs-string">'dd-mm-yyyy'</span>)),
+   	<span class="hljs-comment">--(1006, 10006, 'Benzema', 'Doc', 12, 06, to_date('24-12-2020', 'dd-mm-yyyy')); Génére une erreur: une personne ne peut faire qu'un pret par jour</span>
+    (<span class="hljs-number">1006</span>, <span class="hljs-number">10006</span>, <span class="hljs-string">'Benzema'</span>, <span class="hljs-string">'Doc'</span>, <span class="hljs-number">12</span>, <span class="hljs-number">08</span>, to_date(<span class="hljs-string">'24-12-2020'</span>, <span class="hljs-string">'dd-mm-yyyy'</span>)),
+   	(<span class="hljs-number">1007</span>, <span class="hljs-number">10007</span>, <span class="hljs-string">'La Frappe'</span>, <span class="hljs-string">'Biographie'</span>, <span class="hljs-number">2</span>, <span class="hljs-number">11</span>, to_date(<span class="hljs-string">'04-02-2018'</span>,<span class="hljs-string">'dd-mm-yyyy'</span>)),
+   	(<span class="hljs-number">1008</span>, <span class="hljs-number">10008</span>, <span class="hljs-string">'Jésus Reviens!'</span>, <span class="hljs-string">'Média'</span>, <span class="hljs-number">0</span>, <span class="hljs-number">04</span>, to_date(<span class="hljs-string">'03-07-2018'</span>, <span class="hljs-string">'dd-mm-yyyy'</span>)),
+   	(<span class="hljs-number">1009</span>, <span class="hljs-number">10009</span>, <span class="hljs-string">'Le Rouge et le Rose'</span>, <span class="hljs-string">'Roman'</span>, <span class="hljs-number">350</span>, <span class="hljs-number">10</span>, to_date(<span class="hljs-string">'01-01-2020'</span>,<span class="hljs-string">'dd-mm-yyyy'</span>)),
+   	(<span class="hljs-number">1010</span>, <span class="hljs-number">10006</span>, <span class="hljs-string">'Benzema'</span>, <span class="hljs-string">'Doc'</span>, <span class="hljs-number">12</span>, <span class="hljs-number">09</span>, to_date(<span class="hljs-string">'24-11-2020'</span>, <span class="hljs-string">'dd-mm-yyyy'</span>)), <span class="hljs-comment">-- Une personne prête un livre existant déjà dans la base de donnée </span>
+   	(<span class="hljs-number">1011</span>, <span class="hljs-number">10011</span>, <span class="hljs-string">'Restaurer une ville en ruine'</span>, <span class="hljs-string">'Doc'</span>, <span class="hljs-number">1291</span>, <span class="hljs-number">09</span>, to_date(<span class="hljs-string">'24-11-2019'</span>, <span class="hljs-string">'dd-mm-yyyy'</span>)),		<span class="hljs-comment">-- Deux personnes peuvent prêter le même jour</span>
+   	(<span class="hljs-number">1012</span>, <span class="hljs-number">10012</span>, <span class="hljs-string">'Une Histoire plutôt cool du Temps'</span>, <span class="hljs-string">'Doc'</span>, <span class="hljs-number">345</span>, <span class="hljs-number">10</span>, to_date(<span class="hljs-string">'24-11-2019'</span>, <span class="hljs-string">'dd-mm-yyyy'</span>));	<span class="hljs-comment">-- 	sans que ça pose de problème</span>
+ 
+</div></code></pre>
+<h2 id="qestion-3">Qestion 3</h2>
+<p>On crée maintenant une procédure pour créer un emprunt :</p>
+<pre class="hljs"><code><div><span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">OR REPLACE</span> <span class="hljs-keyword">PROCEDURE</span> doEmprunt(ID_e <span class="hljs-type">INT</span>, Date_e <span class="hljs-type">DATE</span>, Numero_e <span class="hljs-type">INT</span>)
+<span class="hljs-keyword">AS</span>
+$$<span class="pgsql">
+<span class="hljs-keyword">DECLARE</span>
+	nb <span class="hljs-type">INT</span> := <span class="hljs-number">0</span>;
+	Numero_pret_personne <span class="hljs-type">INT</span>;
+	Dispo <span class="hljs-type">BOOLEAN</span>;
+<span class="hljs-keyword">BEGIN</span>
+    <span class="hljs-comment">-- On verifie si l'emprunteur a deja prêté au moins un livre</span>
+    <span class="hljs-keyword">SELECT</span> COUNT(*) <span class="hljs-keyword">INTO</span> nb <span class="hljs-keyword">FROM</span> LIVRE <span class="hljs-keyword">WHERE</span> Numero_pret = Numero_e;
+    <span class="hljs-keyword">IF</span> nb=<span class="hljs-number">0</span> <span class="hljs-keyword">THEN</span>
+        <span class="hljs-keyword">RAISE</span> <span class="hljs-keyword">EXCEPTION</span> <span class="hljs-string">'Emprunteur pas un preteur% '</span>,NOW();
+    <span class="hljs-keyword">ELSE</span>
+        <span class="hljs-keyword">UPDATE</span> LIVRE <span class="hljs-keyword">SET</span> Disponible=<span class="hljs-keyword">FALSE</span> <span class="hljs-keyword">WHERE</span> id = ID_e;
+        <span class="hljs-keyword">INSERT</span> <span class="hljs-keyword">INTO</span> EMPRUNT <span class="hljs-keyword">VALUES</span>(ID_e, Date_e, Numero_e);
+    <span class="hljs-keyword">END</span> <span class="hljs-keyword">IF</span>;
+
+<span class="hljs-keyword">END</span>;
+$$</span> <span class="hljs-keyword">LANGUAGE</span> plpgsql;
+</div></code></pre>
+<h2 id="question-4">Question 4</h2>
+<p>On complète le code écris dans les questions précédentes :</p>
+<pre class="hljs"><code><div><span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">TABLE</span> PERSONNE(
+	Numero <span class="hljs-type">INT</span> <span class="hljs-keyword">PRIMARY KEY</span>,
+	Nom <span class="hljs-type">TEXT</span> <span class="hljs-keyword">NOT</span> <span class="hljs-keyword">NULL</span>,
+	Prenom <span class="hljs-type">TEXT</span> <span class="hljs-keyword">NOT</span> <span class="hljs-keyword">NULL</span>,
+	Adresse <span class="hljs-type">TEXT</span>,
+	<span class="hljs-comment">-- Q4: on ajoute le champ Credits, qui par defaut est 0</span>
+	Credits <span class="hljs-type">INT</span> <span class="hljs-keyword">DEFAULT</span> <span class="hljs-number">0</span>
+);
+</div></code></pre>
+<hr>
+<pre class="hljs"><code><div><span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">OR REPLACE</span> <span class="hljs-keyword">PROCEDURE</span> doEmprunt(ID_e <span class="hljs-type">INT</span>, Date_e <span class="hljs-type">DATE</span>, Numero_e <span class="hljs-type">INT</span>)
+<span class="hljs-keyword">AS</span>
+$$<span class="pgsql">
+<span class="hljs-keyword">DECLARE</span>
+	nb <span class="hljs-type">INT</span> := <span class="hljs-number">0</span>;
+	nbCredits <span class="hljs-type">INT</span>;
+	Numero_pret_personne <span class="hljs-type">INT</span>;
+	Dispo <span class="hljs-type">BOOLEAN</span>;
+<span class="hljs-keyword">BEGIN</span>
+	<span class="hljs-comment">-- On vérifie tout d'abord si le livre est disponible à l'emprunt</span>
+	<span class="hljs-keyword">SELECT</span> Disponible <span class="hljs-keyword">INTO</span> Dispo <span class="hljs-keyword">FROM</span> LIVRE <span class="hljs-keyword">WHERE</span> id = ID_e;
+	<span class="hljs-keyword">IF</span> Dispo <span class="hljs-keyword">THEN</span>
+		<span class="hljs-comment">-- Q4: On verifie si l'emprunteur veut emprunter un livre qu'il a prêté</span>
+		<span class="hljs-keyword">SELECT</span> Numero_pret <span class="hljs-keyword">INTO</span> Numero_pret_personne <span class="hljs-keyword">FROM</span> LIVRE <span class="hljs-keyword">WHERE</span> id = ID_e;
+		<span class="hljs-keyword">IF</span> Numero_pret_personne = Numero_e <span class="hljs-keyword">THEN</span>
+			<span class="hljs-keyword">INSERT</span> <span class="hljs-keyword">INTO</span> EMPRUNT <span class="hljs-keyword">VALUES</span>(ID_e, Date_e, Numero_e);
+		<span class="hljs-keyword">ELSE</span>
+			<span class="hljs-keyword">SELECT</span> COUNT(*) <span class="hljs-keyword">INTO</span> nb <span class="hljs-keyword">FROM</span> LIVRE <span class="hljs-keyword">WHERE</span> Numero_pret = Numero_e;
+
+			<span class="hljs-comment">-- Q4: On verifie que l'emprunteur a assez de credits</span>
+			<span class="hljs-keyword">SELECT</span> Credits <span class="hljs-keyword">INTO</span> nbCredits <span class="hljs-keyword">FROM</span> PERSONNE <span class="hljs-keyword">WHERE</span> Numero = Numero_e;
+			<span class="hljs-keyword">IF</span> nb=<span class="hljs-number">0</span> <span class="hljs-keyword">THEN</span>
+				<span class="hljs-keyword">RAISE</span> <span class="hljs-keyword">EXCEPTION</span> <span class="hljs-string">'Emprunteur pas un preteur% '</span>,NOW();
+			<span class="hljs-keyword">ELSIF</span> nbCredits = <span class="hljs-number">0</span> <span class="hljs-keyword">THEN</span>
+				<span class="hljs-keyword">RAISE</span> <span class="hljs-keyword">EXCEPTION</span> <span class="hljs-string">'Emprunteur n as pas assez de credits% '</span>,NOW();
+			<span class="hljs-keyword">ELSE</span>
+				<span class="hljs-comment">-- On signale que le livre n'est plus disponible</span>
+				<span class="hljs-keyword">UPDATE</span> LIVRE <span class="hljs-keyword">SET</span> Disponible=<span class="hljs-keyword">FALSE</span> <span class="hljs-keyword">WHERE</span> id = ID_e;
+				<span class="hljs-keyword">INSERT</span> <span class="hljs-keyword">INTO</span> EMPRUNT <span class="hljs-keyword">VALUES</span>(ID_e, Date_e, Numero_e);
+			<span class="hljs-keyword">END</span> <span class="hljs-keyword">IF</span>;
+		<span class="hljs-keyword">END</span> <span class="hljs-keyword">IF</span>;
+	<span class="hljs-keyword">ELSE</span>
+		<span class="hljs-keyword">RAISE</span> <span class="hljs-keyword">EXCEPTION</span> <span class="hljs-string">'LE LIVRE N EST PAS DISPONIBLE% '</span>,NOW();
+	<span class="hljs-keyword">END</span> <span class="hljs-keyword">IF</span>;
+<span class="hljs-keyword">END</span>;
+$$</span> <span class="hljs-keyword">LANGUAGE</span> plpgsql;
+</div></code></pre>
+<p>On ajoute les fonctions <code>ajouterCredit()</code> et <code>retirerCredits()</code></p>
+<pre class="hljs"><code><div><span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">OR REPLACE</span> <span class="hljs-keyword">FUNCTION</span> ajouterCredits()
+<span class="hljs-keyword">RETURNS</span> <span class="hljs-type">trigger</span>
+<span class="hljs-keyword">AS</span>
+$$<span class="pgsql">
+<span class="hljs-keyword">BEGIN</span>
+   <span class="hljs-keyword">UPDATE</span> PERSONNE
+   <span class="hljs-keyword">SET</span> Credits=Credits+<span class="hljs-number">4</span>
+   <span class="hljs-comment">--, nbPrets=nbPrets+1</span>
+   <span class="hljs-keyword">WHERE</span> Numero = <span class="hljs-built_in">NEW</span>.Numero_pret;
+
+   <span class="hljs-keyword">RETURN</span> <span class="hljs-built_in">NEW</span>;
+<span class="hljs-keyword">END</span>;
+$$</span> <span class="hljs-keyword">LANGUAGE</span> plpgsql;
+
+
+<span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">OR REPLACE</span> <span class="hljs-keyword">FUNCTION</span> retirerCredits()
+<span class="hljs-keyword">RETURNS</span> <span class="hljs-type">trigger</span>
+<span class="hljs-keyword">AS</span>
+$$<span class="pgsql">
+<span class="hljs-keyword">DECLARE</span>
+   Numero_pret_personne <span class="hljs-type">INT</span>;
+<span class="hljs-keyword">BEGIN</span>
+   <span class="hljs-comment">-- On verifie si l'emprunteur veut emprunter un livre qu'il a prêté</span>
+   <span class="hljs-keyword">SELECT</span> Numero_pret <span class="hljs-keyword">INTO</span> Numero_pret_personne <span class="hljs-keyword">FROM</span> LIVRE <span class="hljs-keyword">WHERE</span> id = <span class="hljs-built_in">NEW</span>.id;
+   <span class="hljs-comment">-- Q5: Si oui, on ne change pas le nombre de credits ni le nombre d'emprunts</span>
+   <span class="hljs-keyword">IF</span> Numero_pret_personne != <span class="hljs-built_in">NEW</span>.Numero_emprunt <span class="hljs-keyword">THEN</span>
+   	<span class="hljs-keyword">UPDATE</span> PERSONNE
+   	<span class="hljs-keyword">SET</span> Credits=Credits<span class="hljs-number">-1</span>
+   	<span class="hljs-comment">--, nbEmprunts=nbEmprunts+1</span>
+   	<span class="hljs-keyword">WHERE</span> Numero = <span class="hljs-built_in">NEW</span>.Numero_emprunt;
+   <span class="hljs-keyword">END</span> <span class="hljs-keyword">IF</span>;
+   <span class="hljs-keyword">RETURN</span> <span class="hljs-built_in">NEW</span>;
+<span class="hljs-keyword">END</span>;
+$$</span> <span class="hljs-keyword">LANGUAGE</span> plpgsql;
+</div></code></pre>
+<p>Et on ajoute enfin les <code>TRIGGER</code> suivants :</p>
+<pre class="hljs"><code><div><span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">TRIGGER</span> triggerPret <span class="hljs-keyword">AFTER</span> <span class="hljs-keyword">INSERT</span>
+<span class="hljs-keyword">ON</span> LIVRE <span class="hljs-keyword">FOR</span> <span class="hljs-keyword">EACH</span> <span class="hljs-keyword">ROW</span>
+<span class="hljs-keyword">EXECUTE</span> <span class="hljs-keyword">PROCEDURE</span> ajouterCredits();
+
+<span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">TRIGGER</span> triggerEmprunt <span class="hljs-keyword">BEFORE</span> <span class="hljs-keyword">INSERT</span>
+<span class="hljs-keyword">ON</span> EMPRUNT <span class="hljs-keyword">FOR</span> <span class="hljs-keyword">EACH</span> <span class="hljs-keyword">ROW</span>
+<span class="hljs-keyword">EXECUTE</span> <span class="hljs-keyword">PROCEDURE</span> retirerCredits();
+</div></code></pre>
+<h2 id="question-5">Question 5</h2>
+<p>On ajoute la fonction <code>compterPrets()</code> et <code>compterEmprunts()</code> pour compter le nombre de prêts et d'emprunts effectués par une personne au cours de l'année en cours.</p>
+<pre class="hljs"><code><div><span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">OR REPLACE</span> <span class="hljs-keyword">FUNCTION</span> compterPrets(numero_personne <span class="hljs-type">INT</span>)
+<span class="hljs-keyword">RETURNS</span> <span class="hljs-type">INT</span>
+<span class="hljs-keyword">AS</span>
+$$<span class="pgsql">
+<span class="hljs-keyword">DECLARE</span>
+	nPrets <span class="hljs-type">INT</span>;
+<span class="hljs-keyword">BEGIN</span>
+	<span class="hljs-keyword">SELECT</span> COUNT(*) <span class="hljs-keyword">INTO</span> nPrets <span class="hljs-keyword">FROM</span> LIVRE <span class="hljs-keyword">WHERE</span> (Numero_pret = numero_personne <span class="hljs-keyword">AND</span> DATE_PART(<span class="hljs-string">'year'</span>,Date_pret) = DATE_PART(<span class="hljs-string">'year'</span>,<span class="hljs-built_in">CURRENT_DATE</span>));
+	<span class="hljs-keyword">RETURN</span> nPrets;
+<span class="hljs-keyword">END</span>;
+$$</span> <span class="hljs-keyword">LANGUAGE</span> plpgsql;
+
+
+<span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">OR REPLACE</span> <span class="hljs-keyword">FUNCTION</span> compterEmprunts(numero_personne <span class="hljs-type">INT</span>)
+<span class="hljs-keyword">RETURNS</span> <span class="hljs-type">INT</span>
+<span class="hljs-keyword">AS</span>
+$$<span class="pgsql">
+<span class="hljs-keyword">DECLARE</span>
+	nEmprunts <span class="hljs-type">INT</span>;
+<span class="hljs-keyword">BEGIN</span>
+	<span class="hljs-keyword">SELECT</span> COUNT(*) <span class="hljs-keyword">INTO</span> nEmprunts <span class="hljs-keyword">FROM</span> EMPRUNT <span class="hljs-keyword">WHERE</span> (Numero_emprunt = numero_personne <span class="hljs-keyword">AND</span> DATE_PART(<span class="hljs-string">'year'</span>,Date_emprunt) = DATE_PART(<span class="hljs-string">'year'</span>,<span class="hljs-built_in">CURRENT_DATE</span>));
+	<span class="hljs-keyword">RETURN</span> nEmprunts;
+<span class="hljs-keyword">END</span>;
+$$</span> <span class="hljs-keyword">LANGUAGE</span> plpgsql;
+</div></code></pre>
+<hr>
+<p>Enfin <code>calculerFrais()</code> permets de calculer les frais annuels d'une personne à l'aide du rapport entre les résultats des deux fonctions précédentes.</p>
+<pre class="hljs"><code><div><span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">OR REPLACE</span> <span class="hljs-keyword">FUNCTION</span> calculerFrais(numero_personne <span class="hljs-type">INT</span>)
+<span class="hljs-keyword">RETURNS</span> <span class="hljs-type">INT</span>
+<span class="hljs-keyword">AS</span>
+$$<span class="pgsql">
+<span class="hljs-keyword">DECLARE</span>
+	Frais <span class="hljs-type">INT</span> := <span class="hljs-number">0</span>;
+	nPrets <span class="hljs-type">INT</span>;
+	nEmprunts <span class="hljs-type">INT</span>;
+<span class="hljs-keyword">BEGIN</span>
+	<span class="hljs-keyword">SELECT</span> compterPrets(numero_personne) <span class="hljs-keyword">INTO</span> nPrets;
+	<span class="hljs-keyword">SELECT</span> compterEmprunts(numero_personne) <span class="hljs-keyword">INTO</span> nEmprunts;
+	<span class="hljs-keyword">IF</span> nEmprunts &lt;= <span class="hljs-number">2</span>* nPrets <span class="hljs-keyword">THEN</span>
+		Frais = Frais + <span class="hljs-number">1</span>;
+	<span class="hljs-keyword">ELSE</span>
+		Frais = Frais + <span class="hljs-number">2</span>;
+	<span class="hljs-keyword">END</span> <span class="hljs-keyword">IF</span>;
+	<span class="hljs-keyword">RAISE</span> <span class="hljs-keyword">NOTICE</span> <span class="hljs-string">'Frais pour:%'</span>, numero_personne;
+	<span class="hljs-keyword">RAISE</span> <span class="hljs-keyword">NOTICE</span>  <span class="hljs-string">': %'</span>, Frais;
+	<span class="hljs-keyword">RETURN</span> Frais;
+<span class="hljs-keyword">END</span>;
+$$</span> <span class="hljs-keyword">LANGUAGE</span> plpgsql;
+</div></code></pre>
+<h2 id="question-6">Question 6</h2>
+<p>Notre base de données empêche les cas suivants:</p>
+<ul>
+<li>prêter plus d'un livre par jour ;</li>
+<li>emprunter plus d'un livre par jour ;</li>
+<li>Prendre en des ISBN réels (et non fictifs comme utilisés dans notre code, puisque le type INT ne supporte pas les nombres longs)</li>
+</ul>
+<p>De plus, on ne gére pas de date limite pour rendre les emprunts, et on a pas de procédure de rendu d'emprunt.
+On aurait pu créer une table PRET qui recense tout les prêts effectués et les informations associées à chacun.</p>
+<p>Enfin, de nombreuses fonctionnalités utiles dans la réalité ne sont pas supportées par notre modèle :</p>
+<ul>
+<li>tri et gestion des documents par type de support ;</li>
+<li>tri décimal (par thème) de Dewey ;</li>
+</ul>
+
+</body>
+</html>
