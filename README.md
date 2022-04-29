@@ -1,10 +1,14 @@
 # Projet BDW2
 ### Par Valentin Buffa (11920316) et Aloys Delobel (11920128)
 ---
+##### Fichier disponible sur https://github.com/ValentinBUFFA/BDW2
+---
 ## Code Complet
+
 Le code complet se trouve dans le fichier *Projet.sql*.
 
 Ce code est le code fonctionnel tel que demandé à la question 5. Des indications sur les tests effectués et certaines clarifications sont inscrites en commentaires. Pour plus de détails, se référer à la suite de ce document pour les parties de codes effectuées questions par questions.
+
 ---
 ---
 ## Question 1
